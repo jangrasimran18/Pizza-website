@@ -1,0 +1,133 @@
+/* Reset some default styles for lists and links */
+.body , html{
+    height: 100%;
+    margin: 0;
+    background-image: url(369063.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: inherit;
+    min-height: 100%;
+}
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the menu */
+  .menu {
+    list-style: none;
+    display: flex;
+    background-color: #333;
+    justify-content: flex-end;
+  }
+  .logo {
+    margin-right: 1000px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-height: 40px;
+  }
+  .menu li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover {
+    background-color: #555;
+  }
+
+  
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .menu {
+      flex-direction: row;
+    }
+  
+    .menu li {
+      border-top: 1px solid #444;
+    }
+  }
+  
+  /* content */
+  
+  .background{
+    font-size: 50px;
+    color: aliceblue;
+  }
+  .box  {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    padding: 20px;
+    width: 600px;
+    margin: 20px auto;
+  }
+
+  .end{
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 550px;
+    
+  }
+  .name{
+    padding-left: 1400px;
+    color: aliceblue;
+    bottom: 3px;
+    position: absolute;
+    
+  }
+  
+  .end p{
+    text-align: center;
+  }
+
+  .btn {
+
+    text-align: center;
+    
+    background-color: black ;
+    border: 2px solid  ;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-style: italic;
+    display: block;
+    margin: 0 auto;
+
+  }
+  button{
+    
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    padding: 0;
+    color: aliceblue;
+    text-align: bold;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(48, 42, 42);
+  
+
+  }
+
+ 
